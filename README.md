@@ -8,7 +8,7 @@ You will need to add to the highlightASquare function, you are also welcome to w
 
 VERY USEFUL HINT: [jQuery has good methods for finding and for changing an element's class](https://api.jquery.com/category/manipulation/class-attribute/)
 
-ANOTHER HINT: There is an array in the highlightASquare function. You will need to find a way to keep track of an index of that array. 
+ANOTHER HINT: There is an array in the highlightASquare function. You will need to find a way to keep track of an index of that array.
 
 ## jQuery Pro Practice Project (optional)
 
@@ -18,3 +18,8 @@ HINT: look into javascript's setInterval() function.
 
 BONUS 1: Add a button for the user to reset the timer.
 BONUS 2: Make something cool happen using a jQuery animation when the timer gets to zero.
+
+**ToDo**
+[ ] - write code to decrement text every second
+[ ] - add button to reset timer
+[ ] - use jquery animation when timers gets to zero
