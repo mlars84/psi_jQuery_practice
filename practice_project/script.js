@@ -8,6 +8,7 @@
   you are also welcome to write more than the given functions.
 */
 var numberOfSquares = 10;
+// var counter = 0;
 var start = 0;
 var end = -1;
 
