@@ -15,20 +15,21 @@
 // [] - use jquery animation when timers gets to zero
 
 var countDown = 10;
-
 $( document ).ready(onReady);
 
 function onReady(){
+
   var counter = setInterval(function(){
-    // console.log(counter);
+    console.log(counter);
     $('.count').text(countDown--);
     if (countDown === -1) {
       clearInterval(counter);
     }
-  }, 100);
+  }, 1000);
   resetTimerButton();
-  // animationFunAtZero(countDown);
+  animationFunAtZero();
 } // end onReady
+
 // function to reset the timer on click of button
 function resetTimerButton() {
   $('#resetTimer').on('click', function() {
